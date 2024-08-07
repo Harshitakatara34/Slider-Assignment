@@ -1,0 +1,202 @@
+.heading-normal-16 {
+  @apply md:text-[16px] text-[14px] text-[#FAFAF9];
+}
+/* 
+.dialogbackground {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-style: solid;
+  border-image-slice: 1;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  transform: translate(-50%, 0);
+  top: 0;
+  left: 50% !important;
+  right: 0% !important;
+}
+
+.blurbackground {
+  backdrop-filter: blur(10px);
+}
+
+.active {
+  color: #a78bfa !important;
+}
+
+.header-link {
+  color: #fff;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.header-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #a78bfa;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: right;
+}
+
+.header-link:hover {
+  color: #a78bfa;
+}
+
+.header-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Navbar.css */
+/* .dialog-panel {
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(100%);
+}
+
+/* Navbar.css */
+/* .dialog-panel {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.dialog-panel.open {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.opacity-transition {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.opacity-transition.open {
+  opacity: 1;
+}
+
+.dialogbackground {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-style: solid;
+  border-image-slice: 1;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  transform: translate(-50%, 0);
+  top: 0;
+  left: 50% !important;
+  right: 0% !important;
+}
+
+.blurbackground {
+  backdrop-filter: blur(10px);
+}
+
+.active {
+  color: #a78bfa !important;
+}
+
+.header-link {
+  color: #fff;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.header-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #a78bfa;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: right;
+}
+
+.header-link:hover {
+  color: #a78bfa;
+}
+
+.header-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
+
+/* Navbar.css */
+/* Navbar.css */
+.dialog-panel {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.dialog-panel.open {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.dialog-overlay {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.dialog-overlay.open {
+  opacity: 1;
+}
+
+.dialogbackground {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-style: solid;
+  border-image-slice: 1;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  transform: translate(-50%, 0);
+  top: 0;
+  left: 50% !important;
+  right: 0% !important;
+}
+
+.blurbackground {
+  backdrop-filter: blur(10px);
+}
+
+.active {
+  color: #a78bfa !important;
+}
+
+.header-link {
+  color: #fff;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.header-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #a78bfa;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: right;
+}
+
+.header-link:hover {
+  color: #a78bfa;
+}
+
+.header-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
